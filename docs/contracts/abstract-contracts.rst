@@ -55,6 +55,7 @@ Exemplo de declaração de função sem implementação (uma declaração de fun
     function foo(address) external returns (address);
 
 Exemplo de declaração de uma variável cujo tipo é um tipo de função:
+
 .. code-block:: solidity
 
     function(address) external returns (address) foo;
@@ -66,6 +67,6 @@ além de remover duplicação de código.
 Contratos abstratos são úteis da mesma forma que definir métodos em uma interface é útil. 
 É uma maneira do designer do contrato abstrato dizer "qualquer filho meu deve implementar este método".
 
-.. note::
+.. nota::
 
   Contratos abstratos não podem sobrescrever uma função virtual implementada com uma função não implementada.
