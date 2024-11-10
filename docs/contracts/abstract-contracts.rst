@@ -67,6 +67,6 @@ além de remover duplicação de código.
 Contratos abstratos são úteis da mesma forma que definir métodos em uma interface é útil. 
 É uma maneira do designer do contrato abstrato dizer "qualquer filho meu deve implementar este método".
 
-.. nota::
+.. Note::
 
   Contratos abstratos não podem sobrescrever uma função virtual implementada com uma função não implementada.
